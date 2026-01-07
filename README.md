@@ -19,7 +19,7 @@ The company experienced a decrease in net profit despite stable sales. This proj
 * Excel: Initial data exploration and CSV management.
 
 ## Dashboard Preview
-![Dashboard Preview]("ZARA Dashboard Preview.png.png")
+![Dashboard Preview]("dashboard_preview.png.png")
 
 ##  Project Structure
 Returns-Logistics-Analysis/
