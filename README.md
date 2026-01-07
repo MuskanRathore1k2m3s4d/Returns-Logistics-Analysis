@@ -1,17 +1,43 @@
-# Returns Logistics & Revenue Leakage Analysis
+# E-Commerce Return & Profit Analysis
+
+An end-to-end Data Analytics project designed to identify revenue leakage and profit erosion caused by high return rates and hidden logistics costs using SQL, Python, and Power BI.
 
 ##  Project Overview
-To identify the root causes of declining net profit despite stable sales volumes.
+The company experienced a decrease in net profit despite stable sales. This project analyzes 1,000+ transactions to pinpoint which product categories are losing money and evaluates the financial impact of various return reasons.
 
-##  Tools Used
-SQL Modeling: Created a master_analytics table by joining sales and returns data to calculate true profit (Sales - Unit Cost - Shipping).
-Exploratory Data Analysis (Python): Used Pandas to group data and calculate a 15.50% Return Rate, identifying key loss drivers.
-Business Intelligence (Power BI): Designed a dashboard to track $64.59K Net Profit against $259.31K Revenue, highlighting that "NULL" and "Damaged" reasons are the primary leakage points.
+##  Project Objectives
+* Analyze overall net profit after accounting for Unit Cost and Shipping.
+* Identify high-risk product categories with the highest return rates.
+* Quantify the financial loss caused by specific return reasons (e.g., "Not as Described").
+* Differentiate between "Hidden" shipping costs and actual product costs.
+* Build an interactive dashboard for real-time profit tracking.
 
-##  Key Insights
-* The "NULL" Factor:** A large portion of returns had no recorded reason, suggesting a gap in data collection at the warehouse.
-* Category Loss:** The 'Beauty' category has the highest return rate (15.5%), significantly eating into margins.
-* Profitability:** Identified that shipping costs for returned items are the primary "hidden" cost.
+#  Tools & Technologies Used
+* SQL:Data modeling, joining Sales and Returns tables, and calculating Net Profit.
+* Python (Pandas, Seaborn): Exploratory Data Analysis (EDA) and visualizing return reason impacts.
+* Power BI:KPI creation, DAX measures, and interactive financial visualizations.
+* Excel: Initial data exploration and CSV management.
 
-##  Dashboard Preview
-![Dashboard](dashboard_preview.png)
+## Dashboard Preview
+![Dashboard Preview](ZARA Dashboard Preview.png)
+
+##  Project Structure
+Returns-Logistics-Analysis/
+│
+├── data/
+│   ├── sales_data.csv
+│   └── returns_data.csv
+│
+├── notebooks/
+│   └── analysis.ipynb
+│
+├── sql_scripts/
+│   └── cleaning_queries.sql
+│
+├── outputs/
+│   └── master_cleaned.csv
+│
+├── dashboard/
+│   └── Return_Logistics_Dashboard.pbix
+│
+└── README.md
