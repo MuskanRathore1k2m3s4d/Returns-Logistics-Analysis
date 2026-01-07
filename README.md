@@ -19,7 +19,7 @@ The company experienced a decrease in net profit despite stable sales. This proj
 * Excel: Initial data exploration and CSV management.
 
 ## Dashboard Preview
-![Dashboard Preview]("dashboard_preview.png.png")
+![Dashboard Preview]("https://github.com/MuskanRathore1k2m3s4d/Returns-Logistics-Analysis/blob/main/dashboard_preview.png.png")
 
 ##  Project Structure
 Returns-Logistics-Analysis/
